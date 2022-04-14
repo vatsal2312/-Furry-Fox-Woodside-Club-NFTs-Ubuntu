@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/Strings.sol";
-import "./interfaces/IFactoryERC721.sol";
+import "./Ownable.sol";
+import "./Strings.sol";
+import "./IFactoryERC721.sol";
 import "./FFWClub-NFT.sol";
 
 contract FFWClubFactory is FactoryERC721, Ownable {
