@@ -2,12 +2,12 @@
 pragma solidity ^0.8.0;
 
 import "./ERC721Tradable.sol";
-import "@openzeppelin/contracts/utils/Counters.sol";
-import "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
-import "./common/meta-transactions/RandomlyAssigned.sol";
-import "@openzeppelin/contracts/utils/Strings.sol";
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "hardhat/console.sol";
+import "./Counters.sol";
+import "./MerkleProof.sol";
+import "./RandomlyAssigned.sol";
+import "./Strings.sol";
+import "./IERC20.sol";
+import "./console.sol";
 
 /// @title Furry Fox Woodside club NFTs 🦊
 /// @custom:website furryfoxwoodside.club
